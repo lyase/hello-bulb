@@ -1,0 +1,373 @@
+# EESchema Netlist Version 1.1 created  26/07/2009 14:18:14
+(
+ ( /4A6C8B29 $noname  C3 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 VDD )
+ )
+ ( /4A6C80A8 $noname  U1 ATTINY2313_2 {Lib=ATTINY2313_2}
+  (    1 N-000020 )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000021 )
+  (    5 N-000001 )
+  (    6 N-000003 )
+  (    7 ? )
+  (    8 N-000022 )
+  (    9 ? )
+  (   10 GND )
+  (   11 ? )
+  (   12 N-000004 )
+  (   13 N-000019 )
+  (   14 N-000005 )
+  (   15 N-000018 )
+  (   16 N-000006 )
+  (   17 N-000017 )
+  (   18 N-000007 )
+  (   19 N-000016 )
+  (   20 VDD )
+ )
+ ( /4A6C7471 $noname  D8 LED {Lib=LED}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /4A6C7470 $noname  D7 LED {Lib=LED}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /4A6C746C $noname  D6 LED {Lib=LED}
+  (    1 N-000010 )
+  (    2 GND )
+ )
+ ( /4A6C746B $noname  D5 LED {Lib=LED}
+  (    1 N-000011 )
+  (    2 GND )
+ )
+ ( /4A6C7468 $noname  D4 LED {Lib=LED}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /4A6C7467 $noname  D3 LED {Lib=LED}
+  (    1 N-000013 )
+  (    2 GND )
+ )
+ ( /4A6C744E $noname  D2 LED {Lib=LED}
+  (    1 N-000014 )
+  (    2 GND )
+ )
+ ( /4A6C7325 $noname  R7 47 {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000017 )
+ )
+ ( /48E37AAA $noname  R3 1.5K {Lib=R}
+  (    1 N-000022 )
+  (    2 VDD )
+ )
+ ( /48E379DF $noname  R2 27 {Lib=R}
+  (    1 N-000022 )
+  (    2 /D- )
+ )
+ ( /48E377D0 $noname  C2 22pF {Lib=C}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /48E377B6 $noname  C1 22pF {Lib=C}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /48E37730 $noname  x1 12M {Lib=CRYSTAL}
+  (    1 N-000021 )
+  (    2 N-000001 )
+ )
+ ( /48E374AC $noname  R1 27 {Lib=R}
+  (    1 N-000003 )
+  (    2 /D+ )
+ )
+ ( /48E367B1 $noname  R4 10K {Lib=R}
+  (    1 VDD )
+  (    2 N-000020 )
+ )
+ ( /48E366C2 $noname  J1 USB {Lib=USB}
+  (    1 VDD )
+  (    2 /D- )
+  (    3 /D+ )
+  (    4 GND )
+ )
+ ( /48D4FF09 $noname  R10 47 {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000005 )
+ )
+ ( /48D4FEF2 $noname  R11 47 {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000019 )
+ )
+ ( /48D4FEEA $noname  R9 47 {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000018 )
+ )
+ ( /48D4FEDC $noname  R12 47 {Lib=R}
+  (    1 N-000008 )
+  (    2 N-000004 )
+ )
+ ( /48D4FED1 $noname  R8 47 {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000006 )
+ )
+ ( /48D4FEC3 $noname  R6 47 {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000007 )
+ )
+ ( /48D4FDB7 $noname  R5 47 {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000016 )
+ )
+ ( /48D4C7BA $noname  D1 LED {Lib=LED}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ C2 1
+ U1 5
+ x1 2
+Net 2 "VDD" "VDD"
+ C3 2
+ U1 20
+ R3 2
+ R4 1
+ J1 1
+Net 3 "" ""
+ R1 1
+ U1 6
+Net 4 "" ""
+ U1 12
+ R12 2
+Net 5 "" ""
+ U1 14
+ R10 2
+Net 6 "" ""
+ U1 16
+ R8 2
+Net 7 "" ""
+ R6 2
+ U1 18
+Net 8 "" ""
+ R12 1
+ D8 1
+Net 9 "" ""
+ D7 1
+ R11 1
+Net 10 "" ""
+ R10 1
+ D6 1
+Net 11 "" ""
+ D5 1
+ R9 1
+Net 12 "" ""
+ D4 1
+ R8 1
+Net 13 "" ""
+ D3 1
+ R7 1
+Net 14 "" ""
+ R6 1
+ D2 1
+Net 15 "" ""
+ R5 1
+ D1 1
+Net 16 "" ""
+ U1 19
+ R5 2
+Net 17 "" ""
+ U1 17
+ R7 2
+Net 18 "" ""
+ U1 15
+ R9 2
+Net 19 "" ""
+ U1 13
+ R11 2
+Net 20 "" ""
+ U1 1
+ R4 2
+Net 21 "" ""
+ C1 1
+ U1 4
+ x1 1
+Net 22 "" ""
+ R3 1
+ R2 1
+ U1 8
+Net 23 "GND" "GND"
+ U1 10
+ D8 2
+ D7 2
+ D6 2
+ D5 2
+ D4 2
+ D3 2
+ D2 2
+ C2 2
+ C1 2
+ D1 2
+ J1 4
+ C3 1
+Net 24 "/D+" "D+"
+ R1 2
+ J1 3
+Net 25 "/D-" "D-"
+ R2 2
+ J1 2
+}
+#End
