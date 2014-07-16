@@ -1,4 +1,4 @@
-update=1/10/2008-12:32:45
+update=mer. 16 juil. 2014 18:08:01 CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -109,8 +109,6 @@ offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
-SimCmd=
-UseNetN=0
 LabSize=60
 [eeschema/libraries]
 LibName1=power
