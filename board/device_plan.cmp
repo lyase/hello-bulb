@@ -1,3 +1,206 @@
-Cmp-Mod V01 Created by Cvpcb (2007-11-29-a) date = 1/10/2008-11:50:50
+Cmp-Mod V01 Created by Cvpcb (2014-07-11 BZR 4989)-product   date = Fri 18 Jul 2014 11:24:09 PM EDT
+
+BeginCmp
+TimeStamp = /48E377B6;
+Reference = 22pF1;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E377D0;
+Reference = 22pF2;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E3DA82;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E3DA29;
+Reference = C2;
+ValeurCmp = 10u;
+IdModule  = Capacitors_ThroughHole:Capacitor8x13RM3.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E46125;
+Reference = D1;
+ValeurCmp = 3.6V;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E4612D;
+Reference = D2;
+ValeurCmp = 3.6V;
+IdModule  = Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FEAF;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FEA0;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FE94;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4C7AE;
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FE79;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FE70;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FE68;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4C7BA;
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E366C2;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = hb-conn:KK04_MC;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E374AC;
+Reference = R1;
+ValeurCmp = 68 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E379DF;
+Reference = R2;
+ValeurCmp = 68 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E37AAA;
+Reference = R3;
+ValeurCmp = 1500 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E367B1;
+Reference = R4;
+ValeurCmp = 10 kohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FF09;
+Reference = R5;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FEF2;
+Reference = R6;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FEEA;
+Reference = R7;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FEDC;
+Reference = R8;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FED1;
+Reference = R9;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FECA;
+Reference = R10;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FEC3;
+Reference = R11;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4FDB7;
+Reference = R12;
+ValeurCmp = 47 ohms;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /48D4C6A7;
+Reference = U1;
+ValeurCmp = ATTINY2313;
+IdModule  = Sockets_DIP:DIP-20__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /48E37730;
+Reference = x1;
+ValeurCmp = 12M;
+IdModule  = Crystals:Crystal_HC50-U_Vertical;
+EndCmp
 
 EndListe

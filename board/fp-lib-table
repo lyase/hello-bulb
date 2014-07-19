@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name hb-conn)(type Legacy)(uri ${KIPRJMOD}/conn.mod)(options "")(descr ""))
+  (lib (name hb-kemal)(type Legacy)(uri ${KIPRJMOD}/kemal_footprints.mod)(options "")(descr ""))
+)
