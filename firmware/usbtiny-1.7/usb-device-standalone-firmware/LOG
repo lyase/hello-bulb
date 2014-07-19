@@ -1,0 +1,55 @@
+une fois mes sources dans le dossier usb-tiny-1.4
+je fais:
+ make
+j'obtient:
+avr-gcc -Os -g -Wall -I. -I../usbtiny  -mmcu=attiny2313 -c ../usbtiny/crc.S
+avr-gcc -Os -g -Wall -I. -I../usbtiny  -mmcu=attiny2313 -c ../usbtiny/int.S
+avr-gcc -Os -g -Wall -I. -I../usbtiny  -mmcu=attiny2313 -c ../usbtiny/usb.c
+avr-gcc -Os -g -Wall -I. -I../usbtiny  -mmcu=attiny2313 -c -o main.o main.c
+avr-gcc -g -mmcu=attiny2313 -o main.elf crc.o int.o usb.o main.o
+text: 1500, data: 2, bss: 44
+avr-objcopy -j .text -j .data -O ihex main.elf main.hex
+----------------------------------------------------------------------------------------------------------------------------
+
+puis je fais 
+avrdude -F -p t2313 -c dapa -i 5 -U flash:w:main.hex
+j'obtiens 
+
+avrdude: AVR device not responding
+avrdude: initialization failed, rc=-1
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0xffffff
+avrdude: Yikes!  Invalid device signature.
+avrdude: Expected signature for ATtiny2313 is 1E 91 0A
+avrdude: NOTE: FLASH memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: AVR device not responding
+avrdude: reading input file "main.hex"
+avrdude: input file main.hex auto detected as Intel Hex
+avrdude: writing flash (1502 bytes):
+
+Writing | ################################################## | 100% 2.47s
+
+avrdude: 1502 bytes of flash written
+avrdude: verifying flash memory against main.hex:
+avrdude: load data flash data from input file main.hex:
+avrdude: input file main.hex auto detected as Intel Hex
+avrdude: input file main.hex contains 1502 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 1.91s
+
+avrdude: verifying ...
+avrdude: verification error, first mismatch at byte 0x0000
+         0x41 != 0xff
+avrdude: verification error; content mismatch
+
+avrdude: safemode: Fuses OK
+
+avrdude done.  Thank you.
+
+
