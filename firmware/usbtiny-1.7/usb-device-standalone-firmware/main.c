@@ -32,11 +32,11 @@ extern int main (void)
           // usually you would run usb_poll() here to listen to usb comunication
           //usb_poll();
           //  here I want to make the led go blinking as this is standalone version of my device a blinking light(test to know your device can be flashed and commands to portB are working!
-          // set port B to zero and then  7 and back to 0 again, 7 is assuming a 4 bit port TODO check if portb=8 bits the wet value to 255.
+          // set port B to zero and then  15 and back to 0 again, 15 is assuming a 4 bit port TODO check if portb=8 bits the all on  value to 255.
           // if goes too fast change the loops sizes
           PORTB=0x00;
           for ( t=0; t<1000 ; t++ ) {} // fake wait function
-          PORTB=7; // all bit are set to 1 power all output pins;
+          PORTB=255; // all bit are set to 1 power all output pins;
           for ( t=0; t<1000 ; t++ ) {} // fake wait function
      }
      return 0;
