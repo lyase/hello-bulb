@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name modules-Lib)(type KiCad)(uri /home/pedro/desarrollo/kemal/placa/modules-Lib)(options "")(descr ""))
+)
